@@ -1,0 +1,224 @@
+header {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+h1, h2, h3, h4 {
+    font-weight:lighter;
+}
+
+/* main bits */
+
+body {
+    color: #000;
+    font-family: TheanoModernRegular, Georgia, Times, serif;
+    font-size: 16px !important;
+    background: url(http://www.fortherecord.simonfosterdesign.com/images/greynoise.jpg) fixed;
+    overflow: auto;
+}
+
+div#wrapper {
+    width: 970px;
+    margin: 0 auto;
+    padding: 0 5px;
+}
+
+/* hedder section */
+
+b1hb {
+    position:absolute;
+    top:0px;
+    right:0px;
+    }
+
+header {
+    height: 200px;
+    width: 970px;
+    border-bottom:solid 1px #000;
+}
+
+header h2 {
+    display: block;
+    width: 150px;
+    height: 150px;
+    background: #000;
+    border-radius: 75px;
+    margin: 25px 0 0 0;
+    float: left;
+    position: relative;
+}
+
+h2 span {
+    display: block;
+    pading: 12px 0 0 10px;
+    width: 50px;
+    height: 48px;
+    background: #fff568;
+    -webkit-border-radius:30px;
+    border-radius: 30px;
+    position: absolute;
+    top: 45px;
+    left: 45px;
+    font-family: sans-serif;
+    font-size: 1.75em;
+}
+
+h1 {
+    float: right;
+    font-style: Chunk, serif;
+    margin: 60px 0 0 0;
+    font-size: 5.1em;
+}
+
+/* about bit */
+
+section {
+    width: 970px;
+    padding: 20px 0 30px 0;
+    border-bottom: solid 1px #000;
+    float: left;
+}
+
+section p {
+    float: left;
+    column-count: 2;
+    column-width: 460px;
+    column-gap: 45px;
+    column-rule: 1px solid #000;
+}
+
+/* genre section */
+
+section h3 {
+    float:left;
+	font-family:ShareRegular, sans-serif;
+	font-size:1.75em;
+	width:100%;
+	position:relative;
+	padding:0 0 0 70px;
+	margin:50px 0 10px 0;
+	}
+
+h3 span {
+    display:block;
+    padding:12px 0 0 0;
+    width:60px;
+    height:48px;
+    background:#000;
+    color:#f4f4f6;
+    -moz-border-radius:30px;
+    -webkit-border-radius:30px;
+    border-radius:30px;
+    text-align:center;
+    position:absolute;
+    left:0px;
+    top:-11px
+}
+
+ul#genre {
+    width:100%;
+	height:200px;
+	display:block;
+	margin:35px 0 0 0;
+	float:left;
+    }
+    
+ul#genre li {
+    height:100%;
+    display:inline;
+    float:left;
+}
+
+ul#genre li:nth-of-type(1) {
+    width:32.9%;
+	background: orange;
+} 
+ul#genre li:nth-of-type(2) {
+    width:15.2%;
+	background: lightblue;
+}
+ul#genre li:nth-of-type(3) {
+    width:13.1%;
+	background: green;
+}
+ul#genre li:nth-of-type(4) {
+    width:10.7%;
+	background: yellow;
+}
+ul#genre li:nth-of-type(5) {
+    width:6.6%;
+	background: pink;
+}
+ul#genre li:nth-of-type(6) {
+    width:6%;
+	background: red;
+}
+ul#genre li:nth-of-type(7) {
+    width:6%;
+	background: brown;
+}
+ul#genre li:nth-of-type(8) {
+    width:5%;
+	background: purple;
+}
+ul#genre li:nth-of-type(9) {
+    width:4.5%;
+	background: beige;
+} 
+
+ul.genre {
+    float:left;
+    margin:30px 0 50px 0;
+}
+
+ul.genre li {
+   padding:3px 0 0 40px;
+   position:relative;
+   margin:0 30px 20px 0;
+   display:inline;
+   float:left;
+}
+ 
+ul.genre li span {
+    width:30px;
+    height:30px;
+    border-radius:15px;
+    display:block;
+    position:absolute;
+    left:0px;
+    top:0px;
+}
+
+span.orange {
+    background: orange;
+}
+
+span.blue {
+    background: blue;
+    }
+span.green{
+    background: green;
+	}
+span.yellow {
+    background: yellow;
+	}
+span.pink {
+    background: pink;
+	}
+span.red {
+    background: red;
+	}
+span.brown {
+    background: brown;
+	}
+span.purple {
+    background: purple;
+	}
+span.beige {
+    background: beige;
+	}
